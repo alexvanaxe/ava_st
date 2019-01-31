@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "FiraCode:pixelsize=13:antialias=true:autohint=true,Liberation Mono:pixelsize=12:antialias=true:autohint=true";
+static char *font = "FiraCode:pixelsize=14:antialias=true:autohint=true,Liberation Mono:pixelsize=12:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
@@ -83,35 +83,36 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* bg opacity */
-unsigned int alpha = 0x919191;
+unsigned int alpha = 0xAA;
 
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 
+
   /* 8 normal colors */
-  [0] = "#333366", /* black   */
-  [1] = "#6666cc", /* red     */
-  [2] = "#0099cc", /* green   */
-  [3] = "#3366cc", /* yellow  */
-  [4] = "#006699", /* blue    */
-  [5] = "#0066ff", /* magenta */
-  [6] = "#669999", /* cyan    */
-  [7] = "#99cccc", /* white   */
+  [0] = "#666666", /* black   */
+  [1] = "#cc6666", /* red     */
+  [2] = "#66cc99", /* green   */
+  [3] = "#cc9966", /* yellow  */
+  [4] = "#6699cc", /* blue    */
+  [5] = "#cc6699", /* magenta */
+  [6] = "#66cccc", /* cyan    */
+  [7] = "#cccccc", /* white   */
 
   /* 8 bright colors */
-  [8]  = "#333399", /* black   */
-  [9]  = "#9999ff", /* red     */
-  [10] = "#00ccff", /* green   */
-  [11] = "#6699ff", /* yellow  */
-  [12] = "#0099cc", /* blue    */
-  [13] = "#0099ff", /* magenta */
-  [14] = "#66cccc", /* cyan    */
-  [15] = "#ccffff", /* white   */
+  [8]  = "#999999", /* black   */
+  [9]  = "#ff9999", /* red     */
+  [10] = "#99ffcc", /* green   */
+  [11] = "#ffcc99", /* yellow  */
+  [12] = "#99ccff", /* blue    */
+  [13] = "#ff99cc", /* magenta */
+  [14] = "#99ffff", /* cyan    */
+  [15] = "#ffffff", /* white   */
 
   /* special colors */
   [256] = "#000000", /* background */
-  [257] = "#666699", /* foreground */
+  [257] = "#ffffff", /* foreground */
 };
 
 /*
