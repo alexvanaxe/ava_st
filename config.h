@@ -5,8 +5,9 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "FiraCode:pixelsize=14:antialias=true:autohint=true,Liberation Mono:pixelsize=12:antialias=true:autohint=true";
+static char *font = "Fantasque Sans Mono:pixelsize=15:antialias=true:autohint=true,JoyPixels:pixelsize=14:antialias=true:autohint=true,Liberation Mono:pixelsize=12:antialias=true:autohint=true";
 static int borderpx = 2;
+
 
 /*
  * What program is execed by st depends of these precedence rules:
